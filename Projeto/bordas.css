@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.border {
+    margin: 10px 0;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.solid {
+    border: 2px solid black;
+}
+
+.dashed {
+    border: 2px dashed black;
+}
+
+.dotted {
+    border: 2px dotted black;
+}
+
+.double {
+    border: 4px double black;
+}
+
+.groove {
+    border: 12px outset rgb(10, 10, 10);
+}
+
+.ridge {
+    border: 12px outset rgb(12, 12, 12);
+}
+
+.inset {
+    border: 12px outset rgb(12, 12, 12);
+}
+
+.outset {
+    border: 12px outset rgb(12, 12, 12);
+}
+
+.none {
+    border: none;
+}
+
+.hidden {
+    border: hidden;
+}

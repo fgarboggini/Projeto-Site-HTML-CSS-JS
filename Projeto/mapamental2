@@ -1,0 +1,128 @@
+digraph "mapamental2" {
+	size="10,10"
+	HTML [label=HTML color=orange fillcolor=orange style=filled]
+	Estrutura [label=Estrutura color=orange fillcolor=orange style=filled]
+	"Tags Comuns" [label="Tags Comuns" color=orange fillcolor=orange style=filled]
+	HTML -> Estrutura
+	HTML -> "Tags Comuns"
+	<!DOCTYPE> [label=<!DOCTYPE> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <!DOCTYPE>
+	<html> [label=<html> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <html>
+	<head> [label=<head> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <head>
+	<title> [label=<title> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <title>
+	<body> [label=<body> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <body>
+	<h1> to <h6> [label=<h1> to <h6> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <h1> to <h6>
+	<p> [label=<p> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <p>
+	<a> [label=<a> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <a>
+	<img> [label=<img> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <img>
+	<div> [label=<div> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <div>
+	<span> [label=<span> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <span>
+	<ul> [label=<ul> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <ul>
+	<ol> [label=<ol> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <ol>
+	<li> [label=<li> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <li>
+	<table> [label=<table> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <table>
+	<form> [label=<form> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <form>
+	<input> [label=<input> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <input>
+	<button> [label=<button> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <button>
+	<link> [label=<link> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <link>
+	<meta> [label=<meta> color=orange fillcolor=orange style=filled]
+	"Tags Comuns" -> <meta>
+	CSS [label=CSS color=blue fillcolor=blue style=filled]
+	Seletores [label=Seletores color=blue fillcolor=blue style=filled]
+	"Propriedades Comuns" [label="Propriedades Comuns" color=blue fillcolor=blue style=filled]
+	CSS -> Seletores
+	CSS -> "Propriedades Comuns"
+	".class" [label=".class" color=blue fillcolor=blue style=filled]
+	Seletores -> ".class"
+	"#id" [label="#id" color=blue fillcolor=blue style=filled]
+	Seletores -> "#id"
+	elemento [label=elemento color=blue fillcolor=blue style=filled]
+	Seletores -> elemento
+	"elemento1,elemento2" [label="elemento1,elemento2" color=blue fillcolor=blue style=filled]
+	Seletores -> "elemento1,elemento2"
+	"elemento1 elemento2" [label="elemento1 elemento2" color=blue fillcolor=blue style=filled]
+	Seletores -> "elemento1 elemento2"
+	color [label=color color=blue fillcolor=blue style=filled]
+	"Propriedades Comuns" -> color
+	"background-color" [label="background-color" color=blue fillcolor=blue style=filled]
+	"Propriedades Comuns" -> "background-color"
+	"font-size" [label="font-size" color=blue fillcolor=blue style=filled]
+	"Propriedades Comuns" -> "font-size"
+	margin [label=margin color=blue fillcolor=blue style=filled]
+	"Propriedades Comuns" -> margin
+	padding [label=padding color=blue fillcolor=blue style=filled]
+	"Propriedades Comuns" -> padding
+	border [label=border color=blue fillcolor=blue style=filled]
+	"Propriedades Comuns" -> border
+	width [label=width color=blue fillcolor=blue style=filled]
+	"Propriedades Comuns" -> width
+	height [label=height color=blue fillcolor=blue style=filled]
+	"Propriedades Comuns" -> height
+	display [label=display color=blue fillcolor=blue style=filled]
+	"Propriedades Comuns" -> display
+	flex [label=flex color=blue fillcolor=blue style=filled]
+	"Propriedades Comuns" -> flex
+	grid [label=grid color=blue fillcolor=blue style=filled]
+	"Propriedades Comuns" -> grid
+	JavaScript [label=JavaScript color=yellow fillcolor=yellow style=filled]
+	"Tipos de Dados" [label="Tipos de Dados" color=yellow fillcolor=yellow style=filled]
+	"Estruturas de Controle" [label="Estruturas de Controle" color=yellow fillcolor=yellow style=filled]
+	"Funções" [label="Funções" color=yellow fillcolor=yellow style=filled]
+	JavaScript -> "Tipos de Dados"
+	JavaScript -> "Estruturas de Controle"
+	JavaScript -> "Funções"
+	Number [label=Number color=yellow fillcolor=yellow style=filled]
+	"Tipos de Dados" -> Number
+	String [label=String color=yellow fillcolor=yellow style=filled]
+	"Tipos de Dados" -> String
+	Boolean [label=Boolean color=yellow fillcolor=yellow style=filled]
+	"Tipos de Dados" -> Boolean
+	Array [label=Array color=yellow fillcolor=yellow style=filled]
+	"Tipos de Dados" -> Array
+	Object [label=Object color=yellow fillcolor=yellow style=filled]
+	"Tipos de Dados" -> Object
+	Null [label=Null color=yellow fillcolor=yellow style=filled]
+	"Tipos de Dados" -> Null
+	Undefined [label=Undefined color=yellow fillcolor=yellow style=filled]
+	"Tipos de Dados" -> Undefined
+	if [label=if color=yellow fillcolor=yellow style=filled]
+	"Estruturas de Controle" -> if
+	else [label=else color=yellow fillcolor=yellow style=filled]
+	"Estruturas de Controle" -> else
+	switch [label=switch color=yellow fillcolor=yellow style=filled]
+	"Estruturas de Controle" -> switch
+	for [label=for color=yellow fillcolor=yellow style=filled]
+	"Estruturas de Controle" -> for
+	while [label=while color=yellow fillcolor=yellow style=filled]
+	"Estruturas de Controle" -> while
+	"do while" [label="do while" color=yellow fillcolor=yellow style=filled]
+	"Estruturas de Controle" -> "do while"
+	function [label=function color=yellow fillcolor=yellow style=filled]
+	"Funções" -> function
+	return [label=return color=yellow fillcolor=yellow style=filled]
+	"Funções" -> return
+	"=> (arrow function)" [label="=> (arrow function)" color=yellow fillcolor=yellow style=filled]
+	"Funções" -> "=> (arrow function)"
+	callback [label=callback color=yellow fillcolor=yellow style=filled]
+	"Funções" -> callback
+	"async/await" [label="async/await" color=yellow fillcolor=yellow style=filled]
+	"Funções" -> "async/await"
+}
